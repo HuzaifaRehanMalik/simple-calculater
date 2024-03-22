@@ -3,8 +3,8 @@
 import inquirer from "inquirer";
 
 const answere = await inquirer.prompt([
-  { message: "Enter First number ", type: "number", name: "FirstNumber" },
-  { message: "Enter Second number ", type: "number", name: "SecondNumber" },
+  { message: "Enter your First number ", type: "number", name: "FirstNumber" },
+  { message: "Enter your Second number ", type: "number", name: "SecondNumber" },
   {
     message: "Select one of the operater to perforam action",
     type: "list",
@@ -36,3 +36,4 @@ else{
   console.log("Invalid operater");
   
 }
+console.log("The End");
